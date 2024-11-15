@@ -1,45 +1,37 @@
+#pragma once
+#include <cmath>
 
-#include "Velocity.h"
+// Forward declarations
+class TestAcceleration;
+class Velocity;  // Forward declare Velocity here
 
-class Acceleration
-{
+class Acceleration {
 private:
-    float ddx;    // Horizontal acceleration component (meters/second²)
-    float ddy;    // Vertical acceleration component (meters/second²)
+    float ddx;
+    float ddy;
 
 public:
+    friend TestAcceleration;
 
+    // Constructors
     Acceleration() : ddx(0.0f), ddy(0.0f) {}
 
-
+    // Copy constructor
     Acceleration(const Acceleration& other) : ddx(other.ddx), ddy(other.ddy) {}
 
-
-    void assign(const Acceleration& acceleration) {
-        ddx = acceleration.ddx;
-        ddy = acceleration.ddy;
-    }
-
-
-    float getDDx() const { return ddx; }
-
-
-    float getDDy() const { return ddy; }
-
-
-    Velocity getVelocity(float time) const {
-        Velocity velocity;
-        velocity.setDx(ddx * time);
-        velocity.setDy(ddy * time);
-        return velocity;
-    }
-
-
-    Velocity getVelocity(const Velocity& pVelocity, float time) const {
-        Velocity velocityChange = getVelocity(time);
-        Velocity finalVelocity = pVelocity;
-        finalVelocity.add(velocityChange);
-        return finalVelocity;
-    }
+    void assign(const Acceleration& acceleration);
+    float getDDx() const;
+    float getDDy() const;
+    float getMagnitude() const;
+    float getDirection() const;
+    void setDDx(float ddx);
+    void setDDy(float ddy);
+    void setMagnitude(float magnitude);
+    void setDirection(float direction);
+    void addDDx(float ddx);
+    void addDDy(float ddy);
+    void add(const Acceleration& acceleration);
+    Velocity getVelocity(float time) const;
+    Velocity getVelocity(const Velocity& initial, float time) const;
+    void updateVelocity(Velocity& velocity, float time) const;
 };
-

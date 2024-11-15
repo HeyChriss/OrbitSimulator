@@ -131,12 +131,23 @@
     <ClCompile Include="Direction.cpp" />
     <ClCompile Include="orbitSimulator.cpp" />
     <ClCompile Include="Position.cpp" />
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="testAcceleration.cpp" />
+    <ClCompile Include="testDirection.cpp" />
+    <ClCompile Include="testPosition.cpp" />
+    <ClCompile Include="testVelocity.cpp" />
     <ClCompile Include="Velocity.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Acceleration.h" />
     <ClInclude Include="Direction.h" />
     <ClInclude Include="Position.h" />
+    <ClInclude Include="test.h" />
+    <ClInclude Include="testAcceleration.h" />
+    <ClInclude Include="testDirection.h" />
+    <ClInclude Include="testPosition.h" />
+    <ClInclude Include="testVelocity.h" />
+    <ClInclude Include="unitTest.h" />
     <ClInclude Include="Velocity.h" />
   </ItemGroup>
   <ItemGroup>
