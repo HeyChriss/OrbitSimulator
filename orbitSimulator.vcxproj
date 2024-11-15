@@ -127,10 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Acceleration.cpp" />
+    <ClCompile Include="Direction.cpp" />
     <ClCompile Include="orbitSimulator.cpp" />
+    <ClCompile Include="Position.cpp" />
     <ClCompile Include="Velocity.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Acceleration.h" />
+    <ClInclude Include="Direction.h" />
+    <ClInclude Include="Position.h" />
     <ClInclude Include="Velocity.h" />
   </ItemGroup>
   <ItemGroup>
