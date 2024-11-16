@@ -1,7 +1,5 @@
-#include "acceleration.h"
+#include "Acceleration.h"
 #include "velocity.h"
-#pragma once
-
 /**
  * @brief Assigns the values of another Acceleration object to this one.
  * @param acceleration The Acceleration object to copy from.

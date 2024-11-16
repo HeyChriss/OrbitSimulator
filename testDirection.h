@@ -1,6 +1,5 @@
-﻿#pragma once
 #pragma once
-#include "direction.h"
+#include "Direction.h"
 #include "unitTest.h"
 #include <cmath>
 #define M_PI 3.14159265358979323846
@@ -125,8 +124,8 @@ private:
 
         // Now test at 45 degrees
         d.setRadians(M_PI / 4.0f);
-        assertEquals(d.getDx(), 0.707107f, 0.0001f);  // cos(45°)
-        assertEquals(d.getDy(), 0.707107f, 0.0001f);  // sin(45°)
+        assertEquals(d.getDx(), 0.707107f);  // cos(45°)
+        assertEquals(d.getDy(), 0.707107f);  // sin(45°)
     }
 
     void setUp()

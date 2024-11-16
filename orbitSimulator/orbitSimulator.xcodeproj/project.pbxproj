@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DBBE84A2CE81AEC006B46AD /* testPosition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DBBE8442CE81AEC006B46AD /* testPosition.cpp */; };
+		5DBBE84B2CE81AEC006B46AD /* velocity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DBBE8492CE81AEC006B46AD /* velocity.cpp */; };
+		5DBBE84C2CE81AEC006B46AD /* Position.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DBBE83C2CE81AEC006B46AD /* Position.cpp */; };
+		5DBBE84D2CE81AEC006B46AD /* orbitSimulator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DBBE83A2CE81AEC006B46AD /* orbitSimulator.cpp */; };
+		5DBBE84E2CE81AEC006B46AD /* testAcceleration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DBBE8402CE81AEC006B46AD /* testAcceleration.cpp */; };
+		5DBBE84F2CE81AEC006B46AD /* testDirection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DBBE8422CE81AEC006B46AD /* testDirection.cpp */; };
+		5DBBE8502CE81AEC006B46AD /* Acceleration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DBBE8372CE81AEC006B46AD /* Acceleration.cpp */; };
+		5DBBE8512CE81AEC006B46AD /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DBBE83E2CE81AEC006B46AD /* test.cpp */; };
+		5DBBE8522CE81AEC006B46AD /* testVelocity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DBBE8462CE81AEC006B46AD /* testVelocity.cpp */; };
+		5DBBE8532CE81AEC006B46AD /* Direction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DBBE8392CE81AEC006B46AD /* Direction.cpp */; };
+		5DDF58A02CE8456900192122 /* SimulationObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DDF589F2CE8456900192122 /* SimulationObject.cpp */; };
+		5DDF58A52CE845BB00192122 /* TestSimulationObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DDF58A42CE845BB00192122 /* TestSimulationObject.cpp */; };
+		5DDF58AD2CE8664300192122 /* Satellite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DDF58AC2CE8663A00192122 /* Satellite.cpp */; };
+		5DDF58B12CE8C76700192122 /* TestSatellite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DDF58B02CE8C76600192122 /* TestSatellite.cpp */; };
+		5DDF58B42CE8D6B800192122 /* Sputnik.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DDF58B32CE8D6B700192122 /* Sputnik.cpp */; };
+		5DDF58B72CE8D87700192122 /* TestSputnik.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DDF58B62CE8D87500192122 /* TestSputnik.cpp */; };
+		5DDF58C02CE8E08C00192122 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DDF58BF2CE8E08C00192122 /* GLUT.framework */; };
+		5DDF58C22CE8E09200192122 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DDF58C12CE8E09200192122 /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5DBBE81B2CE8188B006B46AD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5DBBE81D2CE8188B006B46AD /* orbitSimulator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = orbitSimulator; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DBBE8362CE81AEC006B46AD /* Acceleration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Acceleration.h; path = ../Acceleration.h; sourceTree = SOURCE_ROOT; };
+		5DBBE8372CE81AEC006B46AD /* Acceleration.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Acceleration.cpp; path = ../Acceleration.cpp; sourceTree = SOURCE_ROOT; };
+		5DBBE8382CE81AEC006B46AD /* Direction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Direction.h; path = ../Direction.h; sourceTree = SOURCE_ROOT; };
+		5DBBE8392CE81AEC006B46AD /* Direction.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Direction.cpp; path = ../Direction.cpp; sourceTree = SOURCE_ROOT; };
+		5DBBE83A2CE81AEC006B46AD /* orbitSimulator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = orbitSimulator.cpp; path = ../orbitSimulator.cpp; sourceTree = SOURCE_ROOT; };
+		5DBBE83B2CE81AEC006B46AD /* Position.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Position.h; path = ../Position.h; sourceTree = SOURCE_ROOT; };
+		5DBBE83C2CE81AEC006B46AD /* Position.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Position.cpp; path = ../Position.cpp; sourceTree = SOURCE_ROOT; };
+		5DBBE83D2CE81AEC006B46AD /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = test.h; path = ../test.h; sourceTree = SOURCE_ROOT; };
+		5DBBE83E2CE81AEC006B46AD /* test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = test.cpp; path = ../test.cpp; sourceTree = SOURCE_ROOT; };
+		5DBBE83F2CE81AEC006B46AD /* testAcceleration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = testAcceleration.h; path = ../testAcceleration.h; sourceTree = SOURCE_ROOT; };
+		5DBBE8402CE81AEC006B46AD /* testAcceleration.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = testAcceleration.cpp; path = ../testAcceleration.cpp; sourceTree = SOURCE_ROOT; };
+		5DBBE8412CE81AEC006B46AD /* testDirection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = testDirection.h; path = ../testDirection.h; sourceTree = SOURCE_ROOT; };
+		5DBBE8422CE81AEC006B46AD /* testDirection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = testDirection.cpp; path = ../testDirection.cpp; sourceTree = SOURCE_ROOT; };
+		5DBBE8432CE81AEC006B46AD /* testPosition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = testPosition.h; path = ../testPosition.h; sourceTree = SOURCE_ROOT; };
+		5DBBE8442CE81AEC006B46AD /* testPosition.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = testPosition.cpp; path = ../testPosition.cpp; sourceTree = SOURCE_ROOT; };
+		5DBBE8452CE81AEC006B46AD /* testVelocity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = testVelocity.h; path = ../testVelocity.h; sourceTree = SOURCE_ROOT; };
+		5DBBE8462CE81AEC006B46AD /* testVelocity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = testVelocity.cpp; path = ../testVelocity.cpp; sourceTree = SOURCE_ROOT; };
+		5DBBE8472CE81AEC006B46AD /* unitTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = unitTest.h; path = ../unitTest.h; sourceTree = SOURCE_ROOT; };
+		5DBBE8482CE81AEC006B46AD /* velocity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = velocity.h; path = ../velocity.h; sourceTree = SOURCE_ROOT; };
+		5DBBE8492CE81AEC006B46AD /* velocity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = velocity.cpp; path = ../velocity.cpp; sourceTree = SOURCE_ROOT; };
+		5DDF589E2CE8455D00192122 /* SimulationObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimulationObject.h; sourceTree = "<group>"; };
+		5DDF589F2CE8456900192122 /* SimulationObject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SimulationObject.cpp; sourceTree = "<group>"; };
+		5DDF58A12CE8457400192122 /* TestSimulationObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestSimulationObject.h; sourceTree = "<group>"; };
+		5DDF58A42CE845BB00192122 /* TestSimulationObject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TestSimulationObject.cpp; sourceTree = "<group>"; };
+		5DDF58A62CE862A300192122 /* Satellite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Satellite.h; sourceTree = "<group>"; };
+		5DDF58A92CE862BD00192122 /* SatelliteType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SatelliteType.h; sourceTree = "<group>"; };
+		5DDF58AC2CE8663A00192122 /* Satellite.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Satellite.cpp; sourceTree = "<group>"; };
+		5DDF58AE2CE868FD00192122 /* SatelliteConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SatelliteConfiguration.h; sourceTree = "<group>"; };
+		5DDF58AF2CE8C75200192122 /* TestSatellite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestSatellite.h; sourceTree = "<group>"; };
+		5DDF58B02CE8C76600192122 /* TestSatellite.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TestSatellite.cpp; sourceTree = "<group>"; };
+		5DDF58B22CE8D6AA00192122 /* Sputnik.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sputnik.h; sourceTree = "<group>"; };
+		5DDF58B32CE8D6B700192122 /* Sputnik.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sputnik.cpp; sourceTree = "<group>"; };
+		5DDF58B52CE8D86D00192122 /* TestSputnik.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestSputnik.h; sourceTree = "<group>"; };
+		5DDF58B62CE8D87500192122 /* TestSputnik.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TestSputnik.cpp; sourceTree = "<group>"; };
+		5DDF58BF2CE8E08C00192122 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		5DDF58C12CE8E09200192122 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DBBE81A2CE8188B006B46AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DDF58C22CE8E09200192122 /* OpenGL.framework in Frameworks */,
+				5DDF58C02CE8E08C00192122 /* GLUT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DBBE8142CE8188B006B46AD = {
+			isa = PBXGroup;
+			children = (
+				5DDF58B52CE8D86D00192122 /* TestSputnik.h */,
+				5DDF58B62CE8D87500192122 /* TestSputnik.cpp */,
+				5DDF58B22CE8D6AA00192122 /* Sputnik.h */,
+				5DDF58B32CE8D6B700192122 /* Sputnik.cpp */,
+				5DDF58AF2CE8C75200192122 /* TestSatellite.h */,
+				5DDF58B02CE8C76600192122 /* TestSatellite.cpp */,
+				5DDF58AE2CE868FD00192122 /* SatelliteConfiguration.h */,
+				5DDF58A62CE862A300192122 /* Satellite.h */,
+				5DDF58AC2CE8663A00192122 /* Satellite.cpp */,
+				5DDF58A92CE862BD00192122 /* SatelliteType.h */,
+				5DDF589E2CE8455D00192122 /* SimulationObject.h */,
+				5DDF589F2CE8456900192122 /* SimulationObject.cpp */,
+				5DDF58A12CE8457400192122 /* TestSimulationObject.h */,
+				5DDF58A42CE845BB00192122 /* TestSimulationObject.cpp */,
+				5DBBE8362CE81AEC006B46AD /* Acceleration.h */,
+				5DBBE8372CE81AEC006B46AD /* Acceleration.cpp */,
+				5DBBE8382CE81AEC006B46AD /* Direction.h */,
+				5DBBE8392CE81AEC006B46AD /* Direction.cpp */,
+				5DBBE83A2CE81AEC006B46AD /* orbitSimulator.cpp */,
+				5DBBE83B2CE81AEC006B46AD /* Position.h */,
+				5DBBE83C2CE81AEC006B46AD /* Position.cpp */,
+				5DBBE83D2CE81AEC006B46AD /* test.h */,
+				5DBBE83E2CE81AEC006B46AD /* test.cpp */,
+				5DBBE83F2CE81AEC006B46AD /* testAcceleration.h */,
+				5DBBE8402CE81AEC006B46AD /* testAcceleration.cpp */,
+				5DBBE8412CE81AEC006B46AD /* testDirection.h */,
+				5DBBE8422CE81AEC006B46AD /* testDirection.cpp */,
+				5DBBE8432CE81AEC006B46AD /* testPosition.h */,
+				5DBBE8442CE81AEC006B46AD /* testPosition.cpp */,
+				5DBBE8452CE81AEC006B46AD /* testVelocity.h */,
+				5DBBE8462CE81AEC006B46AD /* testVelocity.cpp */,
+				5DBBE8472CE81AEC006B46AD /* unitTest.h */,
+				5DBBE8482CE81AEC006B46AD /* velocity.h */,
+				5DBBE8492CE81AEC006B46AD /* velocity.cpp */,
+				5DDF58BE2CE8E08C00192122 /* Frameworks */,
+				5DBBE81E2CE8188B006B46AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DBBE81E2CE8188B006B46AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DBBE81D2CE8188B006B46AD /* orbitSimulator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DDF58BE2CE8E08C00192122 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DDF58C12CE8E09200192122 /* OpenGL.framework */,
+				5DDF58BF2CE8E08C00192122 /* GLUT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DBBE81C2CE8188B006B46AD /* orbitSimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DBBE8242CE8188B006B46AD /* Build configuration list for PBXNativeTarget "orbitSimulator" */;
+			buildPhases = (
+				5DBBE8192CE8188B006B46AD /* Sources */,
+				5DBBE81A2CE8188B006B46AD /* Frameworks */,
+				5DBBE81B2CE8188B006B46AD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = orbitSimulator;
+			packageProductDependencies = (
+			);
+			productName = orbitSimulator;
+			productReference = 5DBBE81D2CE8188B006B46AD /* orbitSimulator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DBBE8152CE8188B006B46AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					5DBBE81C2CE8188B006B46AD = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = 5DBBE8182CE8188B006B46AD /* Build configuration list for PBXProject "orbitSimulator" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DBBE8142CE8188B006B46AD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5DBBE81E2CE8188B006B46AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DBBE81C2CE8188B006B46AD /* orbitSimulator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DBBE8192CE8188B006B46AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DDF58B42CE8D6B800192122 /* Sputnik.cpp in Sources */,
+				5DBBE84A2CE81AEC006B46AD /* testPosition.cpp in Sources */,
+				5DDF58AD2CE8664300192122 /* Satellite.cpp in Sources */,
+				5DBBE84B2CE81AEC006B46AD /* velocity.cpp in Sources */,
+				5DBBE84C2CE81AEC006B46AD /* Position.cpp in Sources */,
+				5DBBE84D2CE81AEC006B46AD /* orbitSimulator.cpp in Sources */,
+				5DBBE84E2CE81AEC006B46AD /* testAcceleration.cpp in Sources */,
+				5DBBE84F2CE81AEC006B46AD /* testDirection.cpp in Sources */,
+				5DBBE8502CE81AEC006B46AD /* Acceleration.cpp in Sources */,
+				5DDF58A02CE8456900192122 /* SimulationObject.cpp in Sources */,
+				5DDF58B12CE8C76700192122 /* TestSatellite.cpp in Sources */,
+				5DBBE8512CE81AEC006B46AD /* test.cpp in Sources */,
+				5DDF58A52CE845BB00192122 /* TestSimulationObject.cpp in Sources */,
+				5DBBE8522CE81AEC006B46AD /* testVelocity.cpp in Sources */,
+				5DDF58B72CE8D87700192122 /* TestSputnik.cpp in Sources */,
+				5DBBE8532CE81AEC006B46AD /* Direction.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5DBBE8222CE8188B006B46AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5DBBE8232CE8188B006B46AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5DBBE8252CE8188B006B46AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5DBBE8262CE8188B006B46AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DBBE8182CE8188B006B46AD /* Build configuration list for PBXProject "orbitSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DBBE8222CE8188B006B46AD /* Debug */,
+				5DBBE8232CE8188B006B46AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DBBE8242CE8188B006B46AD /* Build configuration list for PBXNativeTarget "orbitSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DBBE8252CE8188B006B46AD /* Debug */,
+				5DBBE8262CE8188B006B46AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DBBE8152CE8188B006B46AD /* Project object */;
+}
