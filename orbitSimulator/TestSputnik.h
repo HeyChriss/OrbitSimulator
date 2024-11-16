@@ -18,7 +18,8 @@ public:
    void run()
    {
       constructor_default();
-      test_update();
+      update_1frame();
+      update_2frame();
 //      test_draw();
 //      test_breakApart();
       
@@ -27,7 +28,8 @@ public:
    
 private:
    void constructor_default();
-   void test_update();
+   void update_1frame();
+   void update_2frame();
 //   void test_draw();
 //   void test_breakApart();
 };

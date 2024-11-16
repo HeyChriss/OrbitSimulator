@@ -3,6 +3,7 @@
 
 // Forward declarations
 class TestAcceleration;
+class TestSputnik;
 class Velocity;  // Forward declare Velocity here
 
 class Acceleration {
@@ -12,6 +13,7 @@ private:
 
 public:
     friend TestAcceleration;
+    friend TestSputnik;
 
     // Constructors
     Acceleration() : ddx(0.0f), ddy(0.0f) {}

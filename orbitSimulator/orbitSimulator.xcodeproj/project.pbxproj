@@ -25,6 +25,8 @@
 		5DDF58B72CE8D87700192122 /* TestSputnik.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DDF58B62CE8D87500192122 /* TestSputnik.cpp */; };
 		5DDF58C02CE8E08C00192122 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DDF58BF2CE8E08C00192122 /* GLUT.framework */; };
 		5DDF58C22CE8E09200192122 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DDF58C12CE8E09200192122 /* OpenGL.framework */; };
+		5DDF58C52CE955DA00192122 /* uiDraw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DDF58C42CE955DA00192122 /* uiDraw.cpp */; };
+		5DDF58C82CE958EE00192122 /* uiInteract.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DDF58C72CE958EE00192122 /* uiInteract.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -77,6 +79,10 @@
 		5DDF58B62CE8D87500192122 /* TestSputnik.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TestSputnik.cpp; sourceTree = "<group>"; };
 		5DDF58BF2CE8E08C00192122 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		5DDF58C12CE8E09200192122 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		5DDF58C32CE955DA00192122 /* uiDraw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = uiDraw.h; sourceTree = "<group>"; };
+		5DDF58C42CE955DA00192122 /* uiDraw.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = uiDraw.cpp; sourceTree = "<group>"; };
+		5DDF58C62CE958EE00192122 /* uiInteract.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = uiInteract.h; sourceTree = "<group>"; };
+		5DDF58C72CE958EE00192122 /* uiInteract.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = uiInteract.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +135,10 @@
 				5DBBE8472CE81AEC006B46AD /* unitTest.h */,
 				5DBBE8482CE81AEC006B46AD /* velocity.h */,
 				5DBBE8492CE81AEC006B46AD /* velocity.cpp */,
+				5DDF58C32CE955DA00192122 /* uiDraw.h */,
+				5DDF58C42CE955DA00192122 /* uiDraw.cpp */,
+				5DDF58C62CE958EE00192122 /* uiInteract.h */,
+				5DDF58C72CE958EE00192122 /* uiInteract.cpp */,
 				5DDF58BE2CE8E08C00192122 /* Frameworks */,
 				5DBBE81E2CE8188B006B46AD /* Products */,
 			);
@@ -213,6 +223,7 @@
 			files = (
 				5DDF58B42CE8D6B800192122 /* Sputnik.cpp in Sources */,
 				5DBBE84A2CE81AEC006B46AD /* testPosition.cpp in Sources */,
+				5DDF58C52CE955DA00192122 /* uiDraw.cpp in Sources */,
 				5DDF58AD2CE8664300192122 /* Satellite.cpp in Sources */,
 				5DBBE84B2CE81AEC006B46AD /* velocity.cpp in Sources */,
 				5DBBE84C2CE81AEC006B46AD /* Position.cpp in Sources */,
@@ -221,6 +232,7 @@
 				5DBBE84F2CE81AEC006B46AD /* testDirection.cpp in Sources */,
 				5DBBE8502CE81AEC006B46AD /* Acceleration.cpp in Sources */,
 				5DDF58A02CE8456900192122 /* SimulationObject.cpp in Sources */,
+				5DDF58C82CE958EE00192122 /* uiInteract.cpp in Sources */,
 				5DDF58B12CE8C76700192122 /* TestSatellite.cpp in Sources */,
 				5DBBE8512CE81AEC006B46AD /* test.cpp in Sources */,
 				5DDF58A52CE845BB00192122 /* TestSimulationObject.cpp in Sources */,

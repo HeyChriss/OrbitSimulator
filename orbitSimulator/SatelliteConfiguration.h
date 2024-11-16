@@ -20,8 +20,8 @@ struct SatelliteConfiguration
       initialY = y;
       initialDX = dx;
       initialDY = dy;
-      initialDDX = 0.0;
-      initialDDY = 0.0;
+      initialDDX = cos(atan2(0.0 - initialY, 0.0 - initialX));
+      initialDDY = sin(atan2(0.0 - initialY, 0.0 - initialX));
    }
    
    double initialX;
