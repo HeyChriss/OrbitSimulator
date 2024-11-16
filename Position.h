@@ -4,6 +4,7 @@ class TestPosition;
 class Acceleration;
 class Velocity;
 class TestSimulationObject;      // For unit test
+class TestSputnik;               // For unit test
 
 
 class Position {
@@ -15,10 +16,11 @@ private:
 public:
    friend TestPosition; // Allows the TestPosition class to access private members
    friend TestSimulationObject;
+   friend TestSputnik;
    
     // Default constructor: initializes position to (0, 0)
     // and sets a default conversion factor.
-    Position() : x(0.0f), y(0.0f), metersFromPixels(1.0f) {}
+    Position() : x(0.0f), y(0.0f), metersFromPixels(40.0f) {}
 
     // Copy constructor: copies data from another Position object.
     Position(const Position& other)
@@ -70,4 +72,10 @@ public:
      * @return The conversion factor from pixels to meters.
      */
     float getZoom() const { return metersFromPixels; }
+};
+
+struct PT
+{
+   double x;
+   double y;
 };

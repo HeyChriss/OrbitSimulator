@@ -3,6 +3,7 @@
 #pragma once
 
 class TestVelocity;
+class TestSputnik;
 class Acceleration;
 
 class Velocity
@@ -15,6 +16,7 @@ public:
     // Friends of this class can access private members
     friend TestVelocity;   // Allows TestVelocity to access private members
     friend Acceleration;   // Allows Acceleration to access private members
+   friend TestSputnik;
 
     /**
      * @brief Default constructor: initializes velocity to (0, 0).

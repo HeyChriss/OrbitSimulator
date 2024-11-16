@@ -24,8 +24,8 @@ void Satellite::initializeConfig(SatelliteType type)
          this->config.initialY = 21082000.0;
          this->config.initialDX = 2050.0;
          this->config.initialDY = 2684.68;
-         this->config.initialDDX = 0.0;
-         this->config.initialDDY = 0.0;
+         this->config.initialDDX = cos(atan2(0.0 - this->config.initialY, 0.0 - this->config.initialX));
+         this->config.initialDDY = sin(atan2(0.0 - this->config.initialY, 0.0 - this->config.initialX));
          this->config.radius = 0.058;
          break;
          
@@ -34,27 +34,27 @@ void Satellite::initializeConfig(SatelliteType type)
          this->config.initialY = -42164000.0;
          this->config.initialDX = 3100.0;
          this->config.initialDY = 0.0;
-         this->config.initialDDX = 0.0;
-         this->config.initialDDY = 0.0;
-         this->config.radius = 0.0;    // Change to its simulated radius
+         this->config.initialDDX = cos(atan2(0.0 - this->config.initialY, 0.0 - this->config.initialX));
+         this->config.initialDDY = sin(atan2(0.0 - this->config.initialY, 0.0 - this->config.initialX));
+         this->config.radius = 0.0;    // remember to change to its simulated radius
          break;
       case DRAGONCREW:
          this->config.initialX = 0.0;
          this->config.initialY = 8000000.0;
          this->config.initialDX = -7900.0;
          this->config.initialDY = 0.0;
-         this->config.initialDDX = 0.0;
-         this->config.initialDDY = 0.0;
-         this->config.radius = 0.0;    // Change to its simulated radius
+         this->config.initialDDX = cos(atan2(0.0 - this->config.initialY, 0.0 - this->config.initialX));
+         this->config.initialDDY = sin(atan2(0.0 - this->config.initialY, 0.0 - this->config.initialX));
+         this->config.radius = 0.0;    // remember to change to its simulated radius
          break;
       case STARLINK:
          this->config.initialX = 0.0;
          this->config.initialY = -13020000.0;
          this->config.initialDX = 5800.0;
          this->config.initialDY = 0.0;
-         this->config.initialDDX = 0.0;
-         this->config.initialDDY = 0.0;
-         this->config.radius = 0.0;    // Change to its simulated radius
+         this->config.initialDDX = cos(atan2(0.0 - this->config.initialY, 0.0 - this->config.initialX));
+         this->config.initialDDY = sin(atan2(0.0 - this->config.initialY, 0.0 - this->config.initialX));
+         this->config.radius = 0.0;    // remember to change to its simulated radius
          break;
       case GPS:
          this->gpsConfig.push_back(SatelliteConfiguration(0.0, 26560000.0, -3880.0, 0.0));

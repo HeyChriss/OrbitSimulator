@@ -24,7 +24,7 @@ list<SimulationObject> Sputnik::breakApart()
  * Input:
  * Output:
  ***************************************************/
-void Sputnik::update(double deltaTime, SatelliteType type)
+void Sputnik::update(double deltaTime)
 {
    // Calculate gravity
    double altitude = (sqrt(this->getPosition().getMetersX() * this->getPosition().getMetersX() +
@@ -45,7 +45,7 @@ void Sputnik::update(double deltaTime, SatelliteType type)
    
    // Then update position using updated velocity: s = s₀ + vt
    this->vel.setDx(dx0 + ddx * deltaTime);
-   this->vel.setDx(dy0 + ddy * deltaTime);
+   this->vel.setDy(dy0 + ddy * deltaTime);
 
    // Update positions using: x = x₀ + v₀t + ½at²
    double newX = x0 + dx0 * deltaTime + 0.5 * ddx * deltaTime * deltaTime;
@@ -57,7 +57,9 @@ void Sputnik::update(double deltaTime, SatelliteType type)
 
    // Calculate angle for satellite display
    this->radius = atan2(this->vel.getDy(), this->vel.getDx());
-
+   
+   // Rotation per frame
+   // rotationPerFrame = -(2.0 * 3.1416 / 30.0) * (timeDilation / 86400.0);
 }
 
 /***************************************************
@@ -65,7 +67,7 @@ void Sputnik::update(double deltaTime, SatelliteType type)
  * Input:
  * Output:
  ***************************************************/
-//void Sputnik::draw(ogstream gout)
-//{
-//   gout.drawSputnik(this->pos, 0.0);
-//}
+void Sputnik::draw(ogstream & gout)
+{
+   gout.drawSputnik(this->pos, 0.0);
+}

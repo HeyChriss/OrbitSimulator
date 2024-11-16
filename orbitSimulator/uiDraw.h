@@ -25,6 +25,8 @@ using std::max;
 
 #define GL_SILENCE_DEPRECATION
 
+
+
 /*************************************************************************
  * GRAPHICS STREAM
  * A graphics stream that behaves much like COUT except on a drawn screen

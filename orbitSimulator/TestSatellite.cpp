@@ -26,8 +26,8 @@ void TestSatellite::constructor_SPUTNIK()
    assertEquals(s.config.initialY, 21082000.0);
    assertEquals(s.config.initialDX, 2050.0);
    assertEquals(s.config.initialDY, 2684.68);
-   assertEquals(s.config.initialDDX, 0.0);
-   assertEquals(s.config.initialDDY, 0.0);
+   assertEquals(s.config.initialDDX, 0.86602540381309423);
+   assertEquals(s.config.initialDDY, -0.49999999995036715);
 } // teadown
 
 /*************************************
@@ -47,7 +47,7 @@ void TestSatellite::constructor_HUBBLE()
    assertEquals(s.config.initialDX, 3100.0);
    assertEquals(s.config.initialDY, 0.0);
    assertEquals(s.config.initialDDX, 0.0);
-   assertEquals(s.config.initialDDY, 0.0);
+   assertEquals(s.config.initialDDY, 1.0);
 } // teadown
 
 /*************************************
@@ -67,7 +67,7 @@ void TestSatellite::constructor_DRAGONCREW()
    assertEquals(s.config.initialDX, -7900.0);
    assertEquals(s.config.initialDY, 0.0);
    assertEquals(s.config.initialDDX, 0.0);
-   assertEquals(s.config.initialDDY, 0.0);
+   assertEquals(s.config.initialDDY, -1.0);
 } // teadown
 
 /*************************************
@@ -87,7 +87,7 @@ void TestSatellite::constructor_STARLINK()
    assertEquals(s.config.initialDX, 5800.0);
    assertEquals(s.config.initialDY, 0.0);
    assertEquals(s.config.initialDDX, 0.0);
-   assertEquals(s.config.initialDDY, 0.0);
+   assertEquals(s.config.initialDDY, 1.0);
 } // teadown
 
 /*************************************
