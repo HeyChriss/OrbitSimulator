@@ -1,5 +1,5 @@
 #pragma once
-#include "acceleration.h"
+#include "Acceleration.h"
 #include "unitTest.h"
 #include "velocity.h"
 #include <cmath>

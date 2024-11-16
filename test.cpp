@@ -3,6 +3,9 @@
 #include "testVelocity.h"
 #include "testAcceleration.h"
 #include "testDirection.h"
+#include "TestSimulationObject.h"
+#include "TestSatellite.h"
+#include "TestSputnik.h"
 
 /*****************************************************************
  * TEST RUNNER
@@ -14,6 +17,9 @@ void testRunner()
 	TestVelocity().run();
 	TestAcceleration().run();
 	TestDirection().run();
-
+   TestSimulationObject().run();
+   TestSatellite().run();
+   TestSputnik().run();
+   
 
 }

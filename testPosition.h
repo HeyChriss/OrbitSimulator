@@ -1,5 +1,5 @@
 #pragma once
-#include "position.h"
+#include "Position.h"
 #include "unitTest.h"
 
 class TestPosition : public UnitTest

@@ -1,10 +1,9 @@
 #pragma once
 
-
 class TestPosition;
 class Acceleration;
 class Velocity;
-
+class TestSimulationObject;      // For unit test
 
 
 class Position {
@@ -14,9 +13,10 @@ private:
     float metersFromPixels;  // Conversion factor from pixels to meters
 
 public:
-    friend TestPosition; // Allows the TestPosition class to access private members
-
-    // Default constructor: initializes position to (0, 0) 
+   friend TestPosition; // Allows the TestPosition class to access private members
+   friend TestSimulationObject;
+   
+    // Default constructor: initializes position to (0, 0)
     // and sets a default conversion factor.
     Position() : x(0.0f), y(0.0f), metersFromPixels(1.0f) {}
 
