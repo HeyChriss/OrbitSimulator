@@ -1,5 +1,17 @@
+/***********************************************************************
+ * Source File:
+ *    ACCELERATION
+ * Author:
+ *    Chris Mijangos and Seth Chan
+ * Summary:
+ *    Acceleration class
+ ************************************************************************/
+
 #pragma once
 #include <cmath>
+
+
+
 
 // Forward declarations
 class TestAcceleration;

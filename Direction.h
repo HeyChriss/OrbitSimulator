@@ -1,4 +1,13 @@
-﻿#pragma once
+﻿/***********************************************************************
+ * Source File:
+ *    DIRECTION
+ * Author:
+ *    Chris Mijangos and Seth Chan
+ * Summary:
+ *    Direction class or angle class 
+ ************************************************************************/
+
+#pragma once
 #include <cmath>
 #define M_PI 3.14159265358979323846
 

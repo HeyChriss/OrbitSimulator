@@ -1,49 +1,14 @@
-﻿  Direction.cpp
-C:\Users\USUARIO\Desktop\OrbitSimulator\Direction.h(15,35): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
-C:\Users\USUARIO\Desktop\OrbitSimulator\Direction.h(48,50): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\USUARIO\Desktop\OrbitSimulator\Direction.h(64,35): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\USUARIO\Desktop\OrbitSimulator\Direction.h(71,34): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\USUARIO\Desktop\OrbitSimulator\Direction.h(78,29): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\USUARIO\Desktop\OrbitSimulator\Direction.h(101,33): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
-  test.cpp
-C:\Users\USUARIO\Desktop\OrbitSimulator\testVelocity.h(213,28): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
-C:\Users\USUARIO\Desktop\OrbitSimulator\testAcceleration.h(235,29): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\USUARIO\Desktop\OrbitSimulator\direction.h(15,35): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
-C:\Users\USUARIO\Desktop\OrbitSimulator\direction.h(48,50): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\USUARIO\Desktop\OrbitSimulator\direction.h(64,35): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\USUARIO\Desktop\OrbitSimulator\direction.h(71,34): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\USUARIO\Desktop\OrbitSimulator\direction.h(78,29): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\USUARIO\Desktop\OrbitSimulator\direction.h(101,33): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\USUARIO\Desktop\OrbitSimulator\testDirection.h(128,9): warning C4002: hay demasiados argumentos para la invocación de macro "assertEquals" de tipo función
-C:\Users\USUARIO\Desktop\OrbitSimulator\testDirection.h(129,9): warning C4002: hay demasiados argumentos para la invocación de macro "assertEquals" de tipo función
-C:\Users\USUARIO\Desktop\OrbitSimulator\testDirection.h(58,28): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\USUARIO\Desktop\OrbitSimulator\testDirection.h(70,27): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\USUARIO\Desktop\OrbitSimulator\testDirection.h(99,27): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\USUARIO\Desktop\OrbitSimulator\testDirection.h(110,27): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\USUARIO\Desktop\OrbitSimulator\testDirection.h(127,27): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\USUARIO\Desktop\OrbitSimulator\testDirection.h(181,23): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\USUARIO\Desktop\OrbitSimulator\testDirection.h(191,24): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\USUARIO\Desktop\OrbitSimulator\testDirection.h(201,30): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\USUARIO\Desktop\OrbitSimulator\testDirection.h(211,28): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\USUARIO\Desktop\OrbitSimulator\testDirection.h(221,34): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-  testDirection.cpp
-C:\Users\USUARIO\Desktop\OrbitSimulator\direction.h(15,35): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
-C:\Users\USUARIO\Desktop\OrbitSimulator\direction.h(48,50): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\USUARIO\Desktop\OrbitSimulator\direction.h(64,35): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\USUARIO\Desktop\OrbitSimulator\direction.h(71,34): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\USUARIO\Desktop\OrbitSimulator\direction.h(78,29): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\USUARIO\Desktop\OrbitSimulator\direction.h(101,33): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\USUARIO\Desktop\OrbitSimulator\testDirection.h(128,9): warning C4002: hay demasiados argumentos para la invocación de macro "assertEquals" de tipo función
-C:\Users\USUARIO\Desktop\OrbitSimulator\testDirection.h(129,9): warning C4002: hay demasiados argumentos para la invocación de macro "assertEquals" de tipo función
-C:\Users\USUARIO\Desktop\OrbitSimulator\testDirection.h(58,28): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\USUARIO\Desktop\OrbitSimulator\testDirection.h(70,27): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\USUARIO\Desktop\OrbitSimulator\testDirection.h(99,27): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\USUARIO\Desktop\OrbitSimulator\testDirection.h(110,27): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\USUARIO\Desktop\OrbitSimulator\testDirection.h(127,27): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\USUARIO\Desktop\OrbitSimulator\testDirection.h(181,23): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\USUARIO\Desktop\OrbitSimulator\testDirection.h(191,24): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\USUARIO\Desktop\OrbitSimulator\testDirection.h(201,30): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\USUARIO\Desktop\OrbitSimulator\testDirection.h(211,28): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\USUARIO\Desktop\OrbitSimulator\testDirection.h(221,34): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-  Generando código...
-  orbitSimulator.vcxproj -> C:\Users\USUARIO\Desktop\OrbitSimulator\x64\Debug\orbitSimulator.exe
+﻿  TestSputnik.cpp
+C:\Users\USUARIO\Desktop\orbit\Sputnik.h(24,30): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\USUARIO\Desktop\orbit\Sputnik.h(25,30): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\USUARIO\Desktop\orbit\Sputnik.h(28,25): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\USUARIO\Desktop\orbit\Sputnik.h(29,25): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\USUARIO\Desktop\orbit\Sputnik.h(31,24): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\USUARIO\Desktop\orbit\Sputnik.h(32,24): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\USUARIO\Desktop\orbit\Sputnik.h(52,18): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\USUARIO\Desktop\orbit\Sputnik.h(53,18): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\USUARIO\Desktop\orbit\Sputnik.h(56,30): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\USUARIO\Desktop\orbit\Sputnik.h(57,30): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\USUARIO\Desktop\orbit\Sputnik.h(60,36): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\USUARIO\Desktop\orbit\Sputnik.h(61,36): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+  orbitSimulator.vcxproj -> C:\Users\USUARIO\Desktop\orbit\x64\Debug\orbitSimulator.exe

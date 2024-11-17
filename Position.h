@@ -1,3 +1,11 @@
+/***********************************************************************
+ * Source File:
+ *    POSITION
+ * Author:
+ *    Chris Mijangos and Seth Chan
+ * Summary:
+ *    Position class 
+ ************************************************************************/
 #pragma once
 
 class TestPosition;
@@ -70,4 +78,15 @@ public:
      * @return The conversion factor from pixels to meters.
      */
     float getZoom() const { return metersFromPixels; }
+};
+
+
+/*********************************************
+ * PT
+ * Trivial point
+ *********************************************/
+struct PT
+{
+    double x;
+    double y;
 };
